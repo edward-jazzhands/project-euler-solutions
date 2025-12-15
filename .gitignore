@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+node_modules
+
+# Compiled output
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+
+# keep config files
+!*.config.js
