@@ -6,4 +6,5 @@ cleanup file:
 	-e 's/<br>//g' \
 	-e 's/\$//g' \
 	-e 's/\\dots/\.\.\./g' \
+	-e 's/\\times/\*/g' \
 	"{{file}}"
